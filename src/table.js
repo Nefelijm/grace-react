@@ -4,7 +4,7 @@ import grace from './grace.jpg'
 
 class Table extends Component {
 	render() {
-		return ( 
+		return (
 			<div className="Summary">
 				<table className="Summary-table">
 					<thead>
@@ -15,7 +15,7 @@ class Table extends Component {
 					<tbody>
 						<tr>
 							<td colSpan="2">
-								<img src={grace} alt="Grace Hooper" className= "Img-width"/>
+								<img src={grace} alt="Grace Hooper" className="Img-width" />
 								<p>Rear Admiral Grace M. Hopper, 1984</p>
 							</td>
 						</tr>
