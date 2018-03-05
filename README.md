@@ -76,7 +76,7 @@ import grace from './grace.jpg'
 class Table extends Component {
 	render() {
 		return (
-			<div class="Summary">
+		  <div class="Summary">
          <table class="Summary-table">
            <thead>
              <tr>
@@ -139,7 +139,8 @@ De esta manera, se lograra genar la siguiente imagen
               <li> Standards </li>
             </ol>
             <h4 className="content-info">Phrase</h4> 
-						<blockquote cite="http://www.azquotes.com/quote/553883"> Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise. </blockquote>
+            <blockquote cite="http://www.azquotes.com/quote/553883"> Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise.
+           </blockquote>
           </section>
       	);
 		}
